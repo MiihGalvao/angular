@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Ex04Component implements OnInit {
 
+  img1 = 'assets/img1.jpg';
+  img2 = 'assets/img2.jpg';
+  img3 = 'assets/img3.jpg';
+
+  classeImg1 = "img1";
+  classeImg2 = "img2";
+  classeImg3 = "img3";
+
   constructor() { }
 
   ngOnInit(): void {
