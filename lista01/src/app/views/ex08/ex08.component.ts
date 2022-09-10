@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Ex08Component implements OnInit {
 
+  classeCss =  'mouseOff';
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  trocarClasse(nome: string) {
+    this.classeCss = nome;
+  }
 }
