@@ -1,0 +1,90 @@
+<h3>Exemplo de Bindings de Duas Vias - Limpar Nome</h3>
+
+<input type="text" [(ngModel)]="nome">
+
+<br>
+
+{{nome}}
+
+<br>
+
+<button (click)="limparNome()">Limpar</button>
+
+<hr>
+
+<h3>Exemplo 2 - Soma de 2 numeros</h3>
+
+<input type="number" [(ngModel)]="valor1"> +
+<input type="number" [(ngModel)]="valor2">
+
+<br>
+
+{{valor1 + valor2}}
+
+<hr>
+
+<h3>Exemplo 03 - Concatenação de Nome e Sobrenome</h3>
+
+<input type="text" [(ngModel)]="nome">
+<input type="text" [(ngModel)]="sobrenome">
+
+{{obterNomeCompleto()}}
+
+<hr>
+
+
+<h3>Exemplo 04 - Paleta de Cores</h3>
+
+<input type="color" [(ngModel)]="color">
+{{color}}
+
+<br>
+
+<div style="height: 100px; background-color: {{color}}"></div>
+
+<hr>
+
+<h3>Exemplo 05 - Mudar imagem de acordo com genero do filme</h3>
+
+<select [(ngModel)]="generoFilme">
+  <option value="terror">Terror</option>
+  <option value="drama">Drama</option>
+  <option value="ficcao">Ficcao</option>
+
+</select>
+
+{{generoFilme}}
+
+<img style="width: 200px" src="assets/{{generoFilme}}.png">
+
+<br>
+
+{{generoFilme}}
+
+<h3>Exemplo 06 - Checkbox de acordo com opção clicada</h3>
+
+<input id="contatoTelefone" type="checkbox" [(ngModel)]="contatoTelefone">
+<label for="contatoTelefone">Contato por Telefone</label>
+
+<input id="contatoEmail" type="checkbox" [(ngModel)]="contatoEmail">
+<label for="contatoEmail">Contato por Email</label>
+
+Contato por Telefone: {{contatoTelefone}} <br>
+Contato por Email: {{contatoEmail}}
+
+<hr>
+
+<h3>Exemplo 07</h3>
+
+<input id="classe-mago" type="radio" value="mago"      [(ngModel)]="classeHeroi">
+<label for="classe-mago">Mago</label>
+
+<input id="classe-guerreiro" type="radio" value="guerreiro" [(ngModel)]="classeHeroi">
+<label for="classe-guerreiro">Guerreiro</label>
+
+<input id="classe-arqueiro" type="radio" value="arqueiro"  [(ngModel)]="classeHeroi">
+<label for="classe-arqueiro">Arqueiro</label>
+
+<br>
+
+Classe selecionada: {{ classeHeroi }}
