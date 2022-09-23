@@ -1,0 +1,15 @@
+<h3> Exercicio 01</h3>
+
+<input type="number" [(ngModel)]="numero">
+
+<div *ngIf="numero > 0">
+  Numero positivo
+</div>
+
+<div *ngIf="numero < 0">
+  Numero negativo
+</div>
+
+<div *ngIf="numero == 0">
+  Numero 0
+</div>
