@@ -1,0 +1,28 @@
+<h3>Exercicio 03</h3>
+
+<input type="number" [(ngModel)]="valor1">
+<input type="number" [(ngModel)]="valor2">
+
+<br> <br>
+
+<div *ngIf="valor1 && valor2">
+  <button (click)="somar()">+</button>
+</div>
+
+<div *ngIf="valor1 && valor2">
+  <button (click)="subtrair()">-</button>
+</div>
+
+<div *ngIf="valor1 && valor2">
+  <button (click)="mult()">*</button>
+</div>
+
+<div *ngIf="valor1 && valor2">
+  <button (click)="div()">/</button>
+</div>
+
+<br>
+
+O Resultado é {{resultado}}
+
+
