@@ -1,0 +1,22 @@
+<h3>Exercício 01 - ngSwitch</h3>>
+
+<input placeholder="Digite um canal do youtube" [(ngModel)]="canal">
+
+<div [ngSwitch]="canal">
+    <div *ngSwitchCase="'Curso em video'">
+      <h2>Curso em Video</h2>
+      <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">https://www.youtube.com/c/CursoemV%C3%ADdeo</a>
+    </div>
+
+    <div *ngSwitchCase="'Código Fonte'">
+      <h2>Código fonte</h2>
+      <a href="https://www.youtube.com/watch?v=AqDj3OSV0mM" target="_blank">https://www.youtube.com/watch?v=AqDj3OSV0mM</a>
+    </div>
+
+    <div *ngSwitchCase="'Profissão Programador'">
+      <h2>Profissão Programador</h2>
+      <a href="https://www.youtube.com/watch?v=zwdWXgZ-xGM" target="_blank">https://www.youtube.com/watch?v=zwdWXgZ-xGM</a>
+    </div>
+
+
+
