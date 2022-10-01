@@ -1,0 +1,14 @@
+<h3>Exercicio 07</h3>
+
+<input type="text" [(ngModel)]="nome">
+
+<button (click)="incluir()">Incluir</button>
+
+<ol>
+  <li *ngFor="let n of nomes">
+    {{n}}
+
+  </li>
+</ol>
+
+<hr>
