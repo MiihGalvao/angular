@@ -1,1 +1,19 @@
-<p>jogos works!</p>
+<h3>CRUD de Jogos</h3>
+
+<button (click)="novoJogo()">Novo Jogo</button>
+<ul>
+  <li *ngFor="let jogo of jogos let i = index;" (click)="selecionarJogo(jogo)">
+    {{jogos}}
+      <span click="selecionarJogo(jogo)"> {{jogo.nome}} ({{jogo.produtora}} {{jogo.plataforma}} {{jogo.genero}})</span>
+       <span (click)="removerJogo(i)">x</span>
+   </li>
+
+</ul>
+
+<div *ngIf="JogoSelecionado">
+  <input type="text" [(ngModel)]= "jogoSelecionado.nomeJogo">
+  <input type="text" [(ngModel)]= "jogoSelecionado.produtora">
+  <input type="text" [(ngModel)]= "jogoSelecionado.plataforma">
+  <input type="text" [(ngModel)]= "jogoSelecionado.genero ">
+  <button (click)="fechar()">Fechar</button>
+</div>
