@@ -1,0 +1,10 @@
+<h3>Consulta  Timezone</h3>
+
+<input type="text" placeholder="Timezone" [(ngModel)]="timezone">
+
+<button (click)="obterTimezone()">Obter</button>
+
+<div *ngIf="timezone">
+  <h2>{{timezone.datetime}}</h2>
+
+</div>
