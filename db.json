@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "author": "Milena Galvao",
+      "title": "Ta tudo caro!"
+    },
+    {
+      "author": "Milena Galvao",
+      "title": "Xo Spoiler!",
+      "id": 3
+    }
+  ],
+
+  "cliente": [
+    {
+      "id":1,
+      "nome": "João",
+      "cpf": "123456789012"
+    }
+  ],
+
+  "jogos": [
+    {
+      "id": 1,
+      "nome": "God of War Ragnarok", 
+      "plataforma": "PS4/PS5"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
