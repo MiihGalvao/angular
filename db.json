@@ -11,19 +11,22 @@
       "id": 3
     }
   ],
-
   "cliente": [
     {
-      "id":1,
+      "id": 1,
       "nome": "João",
       "cpf": "123456789012"
+    },
+    {
+      "nome": "Milena",
+      "cpf": "46505012341",
+      "id": 2
     }
   ],
-
   "jogos": [
     {
       "id": 1,
-      "nome": "God of War Ragnarok", 
+      "nome": "God of War Ragnarok",
       "plataforma": "PS4/PS5"
     }
   ],
