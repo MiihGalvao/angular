@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "author": "Milena Galvao",
+      "title": "Ta tudo caro!"
+    },
+    {
+      "author": "Milena Galvao",
+      "title": "Xo Spoiler!",
+      "id": 3
+    }
+  ],
+  "cliente": [
+    {
+      "nome": "Milena",
+      "cpf": "46505012341",
+      "id": 2
+    },
+    {
+      "nome": "Maria",
+      "cpf": "12345678910",
+      "id": 3
+    },
+    {
+      "nome": "João",
+      "cpf": "11122233344",
+      "id": 4
+    },
+    {
+      "nome": "João",
+      "cpf": "11122233344",
+      "id": 5
+    },
+    {
+      "nome": "aaa",
+      "cpf": "111",
+      "id": 6
+    },
+    {
+      "nome": "Teste",
+      "cpf": "123",
+      "id": 7
+    },
+    {
+      "nome": "Fabio santos",
+      "cpf": "00011122233",
+      "id": 8
+    }
+  ],
+  "jogos": [
+    {
+      "id": 1,
+      "nome": "God of War Ragnarok",
+      "plataforma": "PS4/PS5"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
