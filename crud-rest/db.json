@@ -46,6 +46,16 @@
       "nome": "Fabio santos",
       "cpf": "00011122233",
       "id": 8
+    },
+    {
+      "nome": "ccc",
+      "cpf": "333",
+      "id": 9
+    },
+    {
+      "nome": "Mi",
+      "cpf": "123",
+      "id": 10
     }
   ],
   "jogos": [
